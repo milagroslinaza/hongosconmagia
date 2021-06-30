@@ -1,0 +1,12 @@
+@import "../base/variables";
+
+/* footer */
+footer {
+  padding: 10px 0px;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: nth($color2, 2);
+  color: nth($color2, 3);
+  font-size: 0.75rem;
+  text-align: center;
+}

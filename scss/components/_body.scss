@@ -1,0 +1,139 @@
+@import "../base/variables";
+
+/* estilos del cuerpo */
+/* body en gral */
+body {
+  background-color: nth($color1, 2);
+}
+
+.cuerpo {
+  padding: 15px 150px;
+  text-align: justify;
+}
+
+/* estilos generales de encabezados y párrafo */
+
+/* estilos de título */
+h1 {
+  padding: 10px 150px;
+  font-family: "Raleway", sans-serif;
+  background-color: nth($color1, 3);
+  color: nth($color1, 2);
+  font-size: 2rem;
+}
+
+h2, .h2 {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-family: "Raleway", sans-serif;
+  color: nth($color1, 4);
+  font-size: 1.75rem;
+  background-color: nth($color1, 2);
+}
+
+h3 {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: nth($color1, 5);
+  font-size: 1.4rem;
+}
+
+h4 {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-family: "Raleway", sans-serif;
+  color: nth($color1, 6);
+  font-size: 1.125rem;
+}
+
+/* estilos de párrafo */
+p {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-family: "Montserrat", sans-serif;
+  color: nth($color1, 7);
+  font-size: 1rem;
+  line-height: 20px;
+}
+
+.primer-parrafo {
+  padding-top: 0px;
+}
+
+.renglon-rosa::first-line {
+  color: nth($color1, 4);
+  line-height: 25px;
+}
+
+/* links general */
+a {
+  color: nth($color1, 4);
+  transition: all 0.5s;
+}
+
+a:hover {
+  background-color: nth($color1, 4);
+  color: nth($color1, 1);
+}
+
+/* imagenes general */
+img {
+  border-radius: 3%;
+}
+
+/* divisores */
+
+.divisor {
+  background-color: nth($color1, 3);
+  height: 5px;
+}
+
+.divisor2 {
+  background-color: nth($color2, 2);
+  height: 5px;
+}
+
+/* listas */
+ol {
+  list-style-type: decimal;
+}
+
+ul {
+  list-style-type: circle;
+  padding-left: 10px;
+}
+
+.ul2 {
+  list-style-type: square;
+  padding-left: 50px;
+}
+
+li {
+  font-family: "Montserrat", sans-serif;
+  color: nth($color1, 7);
+  font-size: 1rem;
+  padding-bottom: 15px;
+}
+
+.li2 {
+  padding-bottom: 5px;
+}
+
+/* cards en bootstrap */
+.card {
+  background-color: nth($color1, 2);
+  border: none;
+  margin-top: 10px;
+}
+
+.btn {
+  background-color: nth($color2, 2);
+  border: none;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background-color: nth($color2, 3);
+}

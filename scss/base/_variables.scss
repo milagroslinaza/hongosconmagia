@@ -1,0 +1,19 @@
+/* LISTAS */
+/* colores: escala principal */
+$color1: #fff6f5, #f6e6e4, #ca8a8b, #a6696b, #834a4c, #622c2f, #3b201d;
+
+/* colores: escala secundaria */
+$color2: #f1fcf1, #b1c5b1, #5b6d5b;
+
+/* EXTENDS */
+/* imagen a la derecha */
+%imagenderecha {
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+/* imagen a la izquierda */
+%imagenizquierda {
+    margin-right: 20px;
+    margin-bottom: 5px;
+}

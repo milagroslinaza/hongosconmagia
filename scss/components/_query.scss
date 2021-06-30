@@ -1,0 +1,101 @@
+@import "../base/variables";
+
+/* MEDIA QUERIES MOBILE */
+@media only screen and (max-width: 400px) {
+  body {
+    margin: 0;
+  }
+
+  h1,
+  h2,
+  .cuerpo {
+    padding: 10px 15px;
+  }
+
+  /* 01 INDEX */
+  .carousel {
+    padding: 5px;
+  }
+
+  /* PAGINA 02 HONGOS y PAGINA 03 TRIP*/
+  .container-hongos,
+  .container-especies,
+  .container-psilocibina,
+  .container-experiencia,
+  .container-dosis,
+  .container-set-setting,
+  .container-set,
+  .container-setting {
+    display: block;
+  }
+
+  .imagen-hongos,
+  .imagen-especies,
+  .imagen-psilocibina,
+  .imagen-experiencia,
+  .imagen-dosis,
+  .imagen-set-setting,
+  .imagen-set,
+  .imagen-setting,
+  .imagen-duration,
+  .imagen-disolucion,
+  .imagen-distorsion,
+  .imagen-emocion,
+  .imagen-surrender,
+  .fuentes {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+  }
+}
+
+/* MEDIA QUERIES TABLET */
+@media only screen and (min-width: 401px) and (max-width: 1300px) {
+  body {
+    margin: 0;
+  }
+
+  h1,
+  .cuerpo {
+    padding: 10px 50px;
+  }
+
+  .container-hongos,
+  .container-especies,
+  .container-psilocibina,
+  .container-experiencia,
+  .container-dosis,
+  .container-set-setting,
+  .container-set,
+  .container-setting {
+    display: block;
+  }
+
+  .imagen-hongos,
+  .imagen-especies,
+  .imagen-psilocibina,
+  .imagen-dosis,
+  .imagen-set-setting,
+  .imagen-set,
+  .imagen-setting,
+  .imagen-duration,
+  .imagen-disolucion,
+  .imagen-distorsion,
+  .imagen-emocion,
+  .imagen-surrender {
+    float: right;
+    margin-left: 10px;
+  }
+
+  .imagen-experiencia {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .fuentes {
+    width: 50%;
+    margin: 0;
+    padding: 10px;
+  }
+}

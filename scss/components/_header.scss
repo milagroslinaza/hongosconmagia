@@ -1,0 +1,47 @@
+@import "../base/variables";
+
+/* header en gral */
+header {
+  background-color: nth($color2 ,2);
+  padding: 10px;
+}
+
+
+/* navbar con bootstrap */
+.navbar {
+  padding: 0;
+}
+ 
+.navbar-custom {
+  background-color: nth($color2 ,2);
+  padding: 0px 5px;
+}  
+
+.navbar-brand {
+  color: nth($color2 ,3) !important;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  transition: all 0.5s;
+}
+
+.navbar-brand:hover {
+  background-color: nth($color2, 2);
+  color: white !important;
+}
+
+.nav-link {
+  color: nth($color1 ,4) !important;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  transition: all 0.5s;
+}
+
+.nav-link:hover {
+  background-color: nth($color1 ,3);
+  color: white !important;
+}
+
+.active {
+  font-weight: 600;
+}

@@ -1,0 +1,27 @@
+/* reset parámetros */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+
+
+
+/* estilos del header */
+@import "components/header";
+
+/* estilos generales de elementos (h1-h6, p, ul, etc) */
+@import "components/body";
+
+/* layout del contenido */
+@import "components/contenido";
+
+/* estilos footer */
+@import "components/footer";
+
+/* media queries */
+@import "components/query";
+
+@import "base/variables";

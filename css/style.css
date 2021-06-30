@@ -1,0 +1,504 @@
+@charset "UTF-8";
+/* reset parámetros */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* estilos del header */
+/* LISTAS */
+/* colores: escala principal */
+/* colores: escala secundaria */
+/* EXTENDS */
+/* imagen a la derecha */
+.imagen-hongos,
+.imagen-psilocibina,
+.imagen-set-setting {
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+/* imagen a la izquierda */
+.imagen-especies,
+.imagen-dosis,
+.imagen-set,
+.imagen-setting {
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+/* header en gral */
+header {
+  background-color: #b1c5b1;
+  padding: 10px;
+}
+
+/* navbar con bootstrap */
+.navbar {
+  padding: 0;
+}
+
+.navbar-custom {
+  background-color: #b1c5b1;
+  padding: 0px 5px;
+}
+
+.navbar-brand {
+  color: #5b6d5b !important;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  transition: all 0.5s;
+}
+
+.navbar-brand:hover {
+  background-color: #b1c5b1;
+  color: white !important;
+}
+
+.nav-link {
+  color: #a6696b !important;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  transition: all 0.5s;
+}
+
+.nav-link:hover {
+  background-color: #ca8a8b;
+  color: white !important;
+}
+
+.active {
+  font-weight: 600;
+}
+
+/* estilos generales de elementos (h1-h6, p, ul, etc) */
+/* LISTAS */
+/* colores: escala principal */
+/* colores: escala secundaria */
+/* EXTENDS */
+/* imagen a la derecha */
+.imagen-hongos,
+.imagen-psilocibina,
+.imagen-set-setting {
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+/* imagen a la izquierda */
+.imagen-especies,
+.imagen-dosis,
+.imagen-set,
+.imagen-setting {
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+/* estilos del cuerpo */
+/* body en gral */
+body {
+  background-color: #f6e6e4;
+}
+
+.cuerpo {
+  padding: 15px 150px;
+  text-align: justify;
+}
+
+/* estilos generales de encabezados y párrafo */
+/* estilos de título */
+h1 {
+  padding: 10px 150px;
+  font-family: "Raleway", sans-serif;
+  background-color: #ca8a8b;
+  color: #f6e6e4;
+  font-size: 2rem;
+}
+
+h2, .h2 {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-family: "Raleway", sans-serif;
+  color: #a6696b;
+  font-size: 1.75rem;
+  background-color: #f6e6e4;
+}
+
+h3 {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #834a4c;
+  font-size: 1.4rem;
+}
+
+h4 {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-family: "Raleway", sans-serif;
+  color: #622c2f;
+  font-size: 1.125rem;
+}
+
+/* estilos de párrafo */
+p {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-family: "Montserrat", sans-serif;
+  color: #3b201d;
+  font-size: 1rem;
+  line-height: 20px;
+}
+
+.primer-parrafo {
+  padding-top: 0px;
+}
+
+.renglon-rosa::first-line {
+  color: #a6696b;
+  line-height: 25px;
+}
+
+/* links general */
+a {
+  color: #a6696b;
+  transition: all 0.5s;
+}
+
+a:hover {
+  background-color: #a6696b;
+  color: #fff6f5;
+}
+
+/* imagenes general */
+img {
+  border-radius: 3%;
+}
+
+/* divisores */
+.divisor {
+  background-color: #ca8a8b;
+  height: 5px;
+}
+
+.divisor2 {
+  background-color: #b1c5b1;
+  height: 5px;
+}
+
+/* listas */
+ol {
+  list-style-type: decimal;
+}
+
+ul {
+  list-style-type: circle;
+  padding-left: 10px;
+}
+
+.ul2 {
+  list-style-type: square;
+  padding-left: 50px;
+}
+
+li {
+  font-family: "Montserrat", sans-serif;
+  color: #3b201d;
+  font-size: 1rem;
+  padding-bottom: 15px;
+}
+
+.li2 {
+  padding-bottom: 5px;
+}
+
+/* cards en bootstrap */
+.card {
+  background-color: #f6e6e4;
+  border: none;
+  margin-top: 10px;
+}
+
+.btn {
+  background-color: #b1c5b1;
+  border: none;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background-color: #5b6d5b;
+}
+
+/* layout del contenido */
+/* LISTAS */
+/* colores: escala principal */
+/* colores: escala secundaria */
+/* EXTENDS */
+/* imagen a la derecha */
+.imagen-hongos,
+.imagen-psilocibina,
+.imagen-set-setting {
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+/* imagen a la izquierda */
+.imagen-especies,
+.imagen-dosis,
+.imagen-set,
+.imagen-setting {
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+/* 01 INDEX */
+/* carousel */
+.carousel {
+  padding: 15px 150px;
+}
+
+/* cards */
+.container-card-index {
+  margin-bottom: 20px;
+}
+
+.card-index {
+  background-color: #fff6f5;
+  border: 4px solid #f6e6e4;
+  border-radius: 5%;
+  margin-top: 10px;
+  transition: all 0.5s;
+}
+
+.card-index:hover {
+  transform: scale(1.1);
+}
+
+/* 02 HONGOS y 03 TRIP */
+.container-hongos,
+.container-psilocibina,
+.container-set-setting {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.container-especies,
+.container-dosis,
+.container-set,
+.container-setting {
+  display: flex;
+}
+
+.container-experiencia {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 20px 0;
+}
+
+.imagen-experiencia {
+  width: 60%;
+  margin-left: 20px;
+}
+
+/* TRIP */
+.imagen-duration,
+.imagen-distorsion,
+.imagen-surrender {
+  float: right;
+  width: 50%;
+  margin-left: 20px;
+}
+
+.imagen-disolucion,
+.imagen-emocion {
+  float: left;
+  width: 25%;
+  margin-right: 20px;
+}
+
+/* 04 SABER MÁS */
+.fuentes {
+  width: 35%;
+  float: right;
+  margin-left: 15px;
+}
+
+/* estilos footer */
+/* LISTAS */
+/* colores: escala principal */
+/* colores: escala secundaria */
+/* EXTENDS */
+/* imagen a la derecha */
+.imagen-hongos,
+.imagen-psilocibina,
+.imagen-set-setting {
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+/* imagen a la izquierda */
+.imagen-especies,
+.imagen-dosis,
+.imagen-set,
+.imagen-setting {
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+/* footer */
+footer {
+  padding: 10px 0px;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #b1c5b1;
+  color: #5b6d5b;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+/* media queries */
+/* LISTAS */
+/* colores: escala principal */
+/* colores: escala secundaria */
+/* EXTENDS */
+/* imagen a la derecha */
+.imagen-hongos,
+.imagen-psilocibina,
+.imagen-set-setting {
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+/* imagen a la izquierda */
+.imagen-especies,
+.imagen-dosis,
+.imagen-set,
+.imagen-setting {
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+/* MEDIA QUERIES MOBILE */
+@media only screen and (max-width: 400px) {
+  body {
+    margin: 0;
+  }
+
+  h1,
+h2,
+.cuerpo {
+    padding: 10px 15px;
+  }
+
+  /* 01 INDEX */
+  .carousel {
+    padding: 5px;
+  }
+
+  /* PAGINA 02 HONGOS y PAGINA 03 TRIP*/
+  .container-hongos,
+.container-especies,
+.container-psilocibina,
+.container-experiencia,
+.container-dosis,
+.container-set-setting,
+.container-set,
+.container-setting {
+    display: block;
+  }
+
+  .imagen-hongos,
+.imagen-especies,
+.imagen-psilocibina,
+.imagen-experiencia,
+.imagen-dosis,
+.imagen-set-setting,
+.imagen-set,
+.imagen-setting,
+.imagen-duration,
+.imagen-disolucion,
+.imagen-distorsion,
+.imagen-emocion,
+.imagen-surrender,
+.fuentes {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+  }
+}
+/* MEDIA QUERIES TABLET */
+@media only screen and (min-width: 401px) and (max-width: 1300px) {
+  body {
+    margin: 0;
+  }
+
+  h1,
+.cuerpo {
+    padding: 10px 50px;
+  }
+
+  .container-hongos,
+.container-especies,
+.container-psilocibina,
+.container-experiencia,
+.container-dosis,
+.container-set-setting,
+.container-set,
+.container-setting {
+    display: block;
+  }
+
+  .imagen-hongos,
+.imagen-especies,
+.imagen-psilocibina,
+.imagen-dosis,
+.imagen-set-setting,
+.imagen-set,
+.imagen-setting,
+.imagen-duration,
+.imagen-disolucion,
+.imagen-distorsion,
+.imagen-emocion,
+.imagen-surrender {
+    float: right;
+    margin-left: 10px;
+  }
+
+  .imagen-experiencia {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .fuentes {
+    width: 50%;
+    margin: 0;
+    padding: 10px;
+  }
+}
+/* LISTAS */
+/* colores: escala principal */
+/* colores: escala secundaria */
+/* EXTENDS */
+/* imagen a la derecha */
+.imagen-hongos,
+.imagen-psilocibina,
+.imagen-set-setting {
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+/* imagen a la izquierda */
+.imagen-especies,
+.imagen-dosis,
+.imagen-set,
+.imagen-setting {
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
