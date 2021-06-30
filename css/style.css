@@ -13,7 +13,9 @@
 /* colores: escala secundaria */
 /* EXTENDS */
 /* imagen a la derecha */
-.imagen-hongos,
+.fuentes, .imagen-duration,
+.imagen-distorsion,
+.imagen-surrender, .imagen-hongos,
 .imagen-psilocibina,
 .imagen-set-setting {
   margin-left: 15px;
@@ -21,7 +23,8 @@
 }
 
 /* imagen a la izquierda */
-.imagen-especies,
+.imagen-disolucion,
+.imagen-emocion, .imagen-especies,
 .imagen-dosis,
 .imagen-set,
 .imagen-setting {
@@ -80,7 +83,9 @@ header {
 /* colores: escala secundaria */
 /* EXTENDS */
 /* imagen a la derecha */
-.imagen-hongos,
+.fuentes, .imagen-duration,
+.imagen-distorsion,
+.imagen-surrender, .imagen-hongos,
 .imagen-psilocibina,
 .imagen-set-setting {
   margin-left: 15px;
@@ -88,7 +93,8 @@ header {
 }
 
 /* imagen a la izquierda */
-.imagen-especies,
+.imagen-disolucion,
+.imagen-emocion, .imagen-especies,
 .imagen-dosis,
 .imagen-set,
 .imagen-setting {
@@ -238,7 +244,9 @@ li {
 /* colores: escala secundaria */
 /* EXTENDS */
 /* imagen a la derecha */
-.imagen-hongos,
+.fuentes, .imagen-duration,
+.imagen-distorsion,
+.imagen-surrender, .imagen-hongos,
 .imagen-psilocibina,
 .imagen-set-setting {
   margin-left: 15px;
@@ -246,7 +254,8 @@ li {
 }
 
 /* imagen a la izquierda */
-.imagen-especies,
+.imagen-disolucion,
+.imagen-emocion, .imagen-especies,
 .imagen-dosis,
 .imagen-set,
 .imagen-setting {
@@ -310,21 +319,18 @@ li {
 .imagen-surrender {
   float: right;
   width: 50%;
-  margin-left: 20px;
 }
 
 .imagen-disolucion,
 .imagen-emocion {
   float: left;
   width: 25%;
-  margin-right: 20px;
 }
 
 /* 04 SABER MÁS */
 .fuentes {
   width: 35%;
   float: right;
-  margin-left: 15px;
 }
 
 /* estilos footer */
@@ -335,7 +341,9 @@ li {
 /* imagen a la derecha */
 .imagen-hongos,
 .imagen-psilocibina,
-.imagen-set-setting {
+.imagen-set-setting, .imagen-duration,
+.imagen-distorsion,
+.imagen-surrender, .fuentes {
   margin-left: 15px;
   margin-bottom: 5px;
 }
@@ -344,7 +352,8 @@ li {
 .imagen-especies,
 .imagen-dosis,
 .imagen-set,
-.imagen-setting {
+.imagen-setting, .imagen-disolucion,
+.imagen-emocion {
   margin-right: 20px;
   margin-bottom: 5px;
 }
@@ -368,7 +377,9 @@ footer {
 /* imagen a la derecha */
 .imagen-hongos,
 .imagen-psilocibina,
-.imagen-set-setting {
+.imagen-set-setting, .imagen-duration,
+.imagen-distorsion,
+.imagen-surrender, .fuentes {
   margin-left: 15px;
   margin-bottom: 5px;
 }
@@ -377,7 +388,8 @@ footer {
 .imagen-especies,
 .imagen-dosis,
 .imagen-set,
-.imagen-setting {
+.imagen-setting, .imagen-disolucion,
+.imagen-emocion {
   margin-right: 20px;
   margin-bottom: 5px;
 }
@@ -487,7 +499,9 @@ h2,
 /* imagen a la derecha */
 .imagen-hongos,
 .imagen-psilocibina,
-.imagen-set-setting {
+.imagen-set-setting, .imagen-duration,
+.imagen-distorsion,
+.imagen-surrender, .fuentes {
   margin-left: 15px;
   margin-bottom: 5px;
 }
@@ -496,7 +510,8 @@ h2,
 .imagen-especies,
 .imagen-dosis,
 .imagen-set,
-.imagen-setting {
+.imagen-setting, .imagen-disolucion,
+.imagen-emocion {
   margin-right: 20px;
   margin-bottom: 5px;
 }
