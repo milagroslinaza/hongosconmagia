@@ -1,7 +1,7 @@
 @import "../base/variables";
 
 /* MEDIA QUERIES MOBILE */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 480px) {
   body {
     margin: 0;
   }
@@ -45,12 +45,12 @@
   .fuentes {
     width: 100%;
     padding: 10px;
-    margin: 0;
+    margin: 0 !important;
   }
 }
 
 /* MEDIA QUERIES TABLET */
-@media only screen and (min-width: 401px) and (max-width: 1300px) {
+@media only screen and (min-width: 481px) and (max-width: 1300px) {
   body {
     margin: 0;
   }
